@@ -1,0 +1,22 @@
+{
+  "name": "Elgoog Everyday",
+  "description": "Always displays google.com in the manner of com.google. For when April Fools Day just isn't long enough",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "*://google.com/*",
+    "*://www.google.com/*",
+    "webRequestBlocking"
+  ],
+  "author": "Jesse Friedman <jesse@jesse.ws>"
+}

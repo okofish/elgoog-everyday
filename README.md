@@ -1,5 +1,6 @@
 elgoog-everyday
 =============
+##### This extension doesn't work anymore because Google removed the com.google functionality :(
 
 Chrome extension to display google.com like [com.google](http://com.google)
 
